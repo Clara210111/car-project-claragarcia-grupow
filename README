@@ -1,0 +1,76 @@
+# GRWPO Recruitment Program
+
+## Objetivo
+
+Generar una representación HTML del archivo PSD proporcionado, asegurando que el resultado final coincida con las especificaciones del diseño de manera precisa.
+
+## Requisitos del Proyecto
+
+### Código
+
+Se puede usar cualquier framework de JavaScript: React, Vue, NextJS, Gatsby, etc. Esto permite elegir las herramientas con las que te sientas más cómodo y que sean más adecuadas para la tarea.
+
+### Reglas
+
+- **Uso de activos:** Utiliza el archivo FCA.zip, que incluye todas las imágenes, íconos y otros recursos necesarios. Asegúrate de incorporarlos correctamente en tu diseño.
+- **Responsividad:** Asegúrate de que la página sea responsiva y se visualice correctamente en tres tamaños de pantalla diferentes: móvil, tableta y escritorio. Esto demuestra tu capacidad para crear interfaces flexibles y fáciles de usar.
+- **Frameworks de CSS:** Eres libre de usar cualquier framework de CSS como Bootstrap, Foundation, Tailwind, u otros para agilizar tu proceso de estilización.
+- **Datos de prueba:** Agrega datos ficticios a cualquier control en la página, como formularios, menús desplegables o tablas, para ilustrar su funcionalidad.
+- **Fuentes web especificadas:** Asegúrate de que la tipografía coincida con el diseño, incluyendo y aplicando correctamente las fuentes web requeridas.
+
+## Criterios de Evaluación
+
+- **Adherencia a las mejores prácticas:** Evaluaremos tu código en cuanto a mantenibilidad, legibilidad y adherencia a las convenciones de codificación estándar. Asegúrate de que tu código esté limpio y bien documentado.
+- **Implementación de CSS pixel-perfect:** Tu HTML y CSS deben coincidir exactamente con el diseño proporcionado en el archivo PSD. La atención al detalle es crucial aquí.
+- **Separación efectiva del código y modularidad:** Tu código debe estar organizado de manera que se separen las preocupaciones y se promueva la reutilización. Los componentes, estilos y scripts deben ser modulares y fáciles de gestionar.
+
+## Plazo de Entrega
+
+Tienes 72 horas para completar esta tarea. Este plazo comienza cuando recibes los materiales y te permite planificar y ejecutar tu solución de manera eficiente.
+
+## Estructura del Proyecto
+src
+│
+├── assets
+│ └── fiat_rojo.png
+│
+├── components
+│ └── Cotizador
+│ ├── Cotizador.js --> formulario de datos personales a llenar, abajo de Navbar
+│ └── CotizadorStyles.css
+│ └── Navbar
+│ ├── Navbar.js  --> contiene la barra de navegación responsiva, cambia estructura en versión móvil. Se controla con ícono
+│ └── NavbarStyles.css
+│
+├── App.js
+├── index.js
+└── styles.css
+
+## Dependencias
+@fortawesome/fontawesome-svg-core: ^6.6.0
+@fortawesome/free-solid-svg-icons: ^6.6.0
+@fortawesome/react-fontawesome: ^0.2.2
+react: ^18.0.0 (18.1.0)
+react-dom: ^18.0.0 (18.1.0)
+react-scripts: ^5.0.0 (5.0.1)
+
+## Instrucciones de Instalación
+
+1. Clona el repositorio.
+2. Navega al directorio del proyecto.
+3. Instala las dependencias con `npm install`.
+4. Inicia el servidor de desarrollo con `npm start`.
+
+## Uso del Proyecto
+- La página se adapta a diferentes tamaños de pantalla (móvil, tableta y escritorio).
+
+## Tecnologías Utilizadas
+- React
+- CSS 
+- FontAwesome para los íconos
+
+## Contacto
+clara.garcia@ibt.unam.mx
+claravgarcia5638@gmail.com
+
+
