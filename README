@@ -59,7 +59,7 @@ react-scripts: ^5.0.0 (5.0.1)
 1. Clona el repositorio.
 2. Navega al directorio del proyecto.
 3. Instala las dependencias con `npm install`.
-4. Inicia el servidor de desarrollo con `npm start`.
+4. Inicia el servidor de desarrollo con `npm run dev`.
 
 ## Uso del Proyecto
 - La página se adapta a diferentes tamaños de pantalla (móvil, tableta y escritorio).
